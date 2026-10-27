@@ -9,7 +9,7 @@ var today = dayjs().format("MM/DD/YYYY");
 let previoussearch = JSON.parse(localStorage.getItem("previoussearch")) || [];
 
 //This is the default value of the input box.
-input.value = "Los Angeles, NJ, US";
+input.value = "Los Angeles, CA, US";
 
 // the are the data values from the third fetch that will be used to get the weather stats
 let weatherarray = [3, 11, 19, 27, 35];
